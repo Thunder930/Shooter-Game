@@ -1,6 +1,6 @@
-prefix=C:/Program Files (x86)/GLFW_Template
+prefix=C:/Program Files (x86)/Shooter-Game
 exec_prefix=${prefix}
-libdir=C:/Program Files (x86)/GLFW_Template/lib
+libdir=C:/Program Files (x86)/Shooter-Game/lib
 includedir=${prefix}/include
 
 Name: glew

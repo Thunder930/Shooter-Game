@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F9E30EFD-417C-31BD-8D8A-8C8A1B5D6208}</ProjectGuid>
+    <ProjectGuid>{E317EB5A-BC36-3820-A739-4C761F868F32}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\external\GLFW\CMakeLists.txt">
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\external\GLFW\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,22 +159,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\dev\C++\GLFW Template\build\ZERO_CHECK.vcxproj">
-      <Project>{52A726F0-E9DE-3BA0-8AAE-98191BFBF45D}</Project>
+    <ProjectReference Include="C:\dev\C++\Shooter-Game\build\ZERO_CHECK.vcxproj">
+      <Project>{950CFBAF-D037-35DB-BF24-294C496936B5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\dev\C++\GLFW Template\build\external\GLFW\src\glfw.vcxproj">
-      <Project>{4C194C20-6A03-3C73-9EDD-C63A668B57F8}</Project>
+    <ProjectReference Include="C:\dev\C++\Shooter-Game\build\external\GLFW\src\glfw.vcxproj">
+      <Project>{5732D4B2-49F8-3E4D-A082-1090EB77C0DC}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

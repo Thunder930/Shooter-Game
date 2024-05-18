@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/dev/C++/GLFW Template/build/external/GLFW/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/dev/C++/GLFW Template/build/external/GLFW/install_manifest.txt\"")
+if (NOT EXISTS "C:/dev/C++/Shooter-Game/build/external/GLFW/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/dev/C++/Shooter-Game/build/external/GLFW/install_manifest.txt\"")
 endif()
 
-file(READ "C:/dev/C++/GLFW Template/build/external/GLFW/install_manifest.txt" files)
+file(READ "C:/dev/C++/Shooter-Game/build/external/GLFW/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/C++/GLFW Template/external/GLFW
+# Install script for directory: C:/dev/C++/Shooter-Game/external/GLFW
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GLFW_Template")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Shooter-Game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/dev/C++/GLFW Template/build/external/GLFW/src/cmake_install.cmake")
+  include("C:/dev/C++/Shooter-Game/build/external/GLFW/src/cmake_install.cmake")
 endif()
 

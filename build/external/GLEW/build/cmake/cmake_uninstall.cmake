@@ -1,13 +1,13 @@
-if(NOT EXISTS "C:/dev/C++/GLFW Template/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/dev/C++/GLFW Template/build/install_manifest.txt")
-endif(NOT EXISTS "C:/dev/C++/GLFW Template/build/install_manifest.txt")
+if(NOT EXISTS "C:/dev/C++/Shooter-Game/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/dev/C++/Shooter-Game/build/install_manifest.txt")
+endif(NOT EXISTS "C:/dev/C++/Shooter-Game/build/install_manifest.txt")
 
 if (NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set (CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GLFW_Template")
+  set (CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Shooter-Game")
 endif ()
  message(${CMAKE_INSTALL_PREFIX})
 
-file(READ "C:/dev/C++/GLFW Template/build/install_manifest.txt" files)
+file(READ "C:/dev/C++/Shooter-Game/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

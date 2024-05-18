@@ -1,7 +1,7 @@
 # CMakeLists.txt for main project
 
 # Set main project name
-set(PROJECT_NAME GLFW_Template)
+set(PROJECT_NAME Shooter-Game)
 
 # Minimum required CMake version
 cmake_minimum_required(VERSION 3.0)

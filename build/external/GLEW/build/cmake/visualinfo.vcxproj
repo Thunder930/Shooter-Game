@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{733966CD-C2A8-3489-AF47-A362E1E18667}</ProjectGuid>
+    <ProjectGuid>{FE302B3F-2A11-31B3-81D3-9360C1E1D413}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">visualinfo.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">visualinfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">visualinfo.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">visualinfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">visualinfo.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">visualinfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">visualinfo.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">visualinfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLEW_NO_GLU;GLEW_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,8 +119,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/dev/C++/GLFW Template/build/lib/Debug/visualinfo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/dev/C++/GLFW Template/build/bin/Debug/visualinfo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/dev/C++/Shooter-Game/build/lib/Debug/visualinfo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/C++/Shooter-Game/build/bin/Debug/visualinfo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_NO_GLU;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,8 +163,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/dev/C++/GLFW Template/build/lib/Release/visualinfo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/dev/C++/GLFW Template/build/bin/Release/visualinfo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/dev/C++/Shooter-Game/build/lib/Release/visualinfo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/C++/Shooter-Game/build/bin/Release/visualinfo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -173,7 +173,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -191,10 +191,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_NO_GLU;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -207,8 +207,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/dev/C++/GLFW Template/build/lib/MinSizeRel/visualinfo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/dev/C++/GLFW Template/build/bin/MinSizeRel/visualinfo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/dev/C++/Shooter-Game/build/lib/MinSizeRel/visualinfo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/C++/Shooter-Game/build/bin/MinSizeRel/visualinfo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -217,7 +217,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -234,10 +234,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_NO_GLU;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,8 +250,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/dev/C++/GLFW Template/build/lib/RelWithDebInfo/visualinfo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/dev/C++/GLFW Template/build/bin/RelWithDebInfo/visualinfo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/dev/C++/Shooter-Game/build/lib/RelWithDebInfo/visualinfo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/C++/Shooter-Game/build/bin/RelWithDebInfo/visualinfo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -259,11 +259,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\external\GLEW\build\cmake\CMakeLists.txt">
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLEW/build/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLEW/build/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,12 +271,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\GLFW Template\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\Shooter-Game\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLEW/build/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLEW/build/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\GLFW Template\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\Shooter-Game\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLEW/build/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLEW/build/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\GLFW Template\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\Shooter-Game\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLEW/build/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLEW/build/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLEW/build/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,24 +310,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\GLFW Template\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\GLFW Template\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\dev\C++\Shooter-Game\external\GLEW\build\cmake\cmake_uninstall.cmake.in;C:\dev\C++\Shooter-Game\external\GLEW\glew.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\build\external\GLEW\build\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\dev\C++\GLFW Template\external\GLEW\src\visualinfo.c" />
-    <ResourceCompile Include="C:\dev\C++\GLFW Template\external\GLEW\build\visualinfo.rc" />
+    <ClCompile Include="C:\dev\C++\Shooter-Game\external\GLEW\src\visualinfo.c" />
+    <ResourceCompile Include="C:\dev\C++\Shooter-Game\external\GLEW\build\visualinfo.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\dev\C++\GLFW Template\build\ZERO_CHECK.vcxproj">
-      <Project>{52A726F0-E9DE-3BA0-8AAE-98191BFBF45D}</Project>
+    <ProjectReference Include="C:\dev\C++\Shooter-Game\build\ZERO_CHECK.vcxproj">
+      <Project>{950CFBAF-D037-35DB-BF24-294C496936B5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\dev\C++\GLFW Template\build\external\GLEW\build\cmake\glew_s.vcxproj">
-      <Project>{0FDCDC9B-C489-370A-BB27-29325865EBA7}</Project>
+    <ProjectReference Include="C:\dev\C++\Shooter-Game\build\external\GLEW\build\cmake\glew_s.vcxproj">
+      <Project>{3952B993-A0CA-30EB-9A9B-AA777DE68645}</Project>
       <Name>glew_s</Name>
     </ProjectReference>
   </ItemGroup>

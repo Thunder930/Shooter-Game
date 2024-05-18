@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.9.8+b34f75857 for .NET Framework
-      Build started 5/17/2024 11:16:30 PM.
+      Build started 5/18/2024 3:26:54 AM.
       
-      Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.51
+      Time Elapsed 00:00:00.31
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/dev/C++/GLFW Template/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+        C:/dev/C++/Shooter-Game/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.9.8+b34f75857 for .NET Framework
-      Build started 5/17/2024 11:16:31 PM.
+      Build started 5/18/2024 3:26:55 AM.
       
-      Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.33
+      Time Elapsed 00:00:00.31
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/dev/C++/GLFW Template/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+        C:/dev/C++/Shooter-Game/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,47 +127,47 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027"
-      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027"
+      source: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-qkqhlo"
+      binary: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-qkqhlo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027
+        Change Dir: C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-qkqhlo
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ace0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 5/17/2024 11:16:31 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_55dd0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/18/2024 3:26:55 AM.
         
-        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\cmTC_ace0c.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qkqhlo\\cmTC_55dd0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ace0c.dir\\Debug\\".
+          Creating directory "cmTC_55dd0.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\".
-          Creating directory "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\".
+          Creating directory "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qkqhlo\\Debug\\".
+          Creating directory "cmTC_55dd0.dir\\Debug\\cmTC_55dd0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_55dd0.dir\\Debug\\cmTC_55dd0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_55dd0.dir\\Debug\\cmTC_55dd0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ace0c.dir\\Debug\\\\" /Fd"cmTC_ace0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55dd0.dir\\Debug\\\\" /Fd"cmTC_55dd0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ace0c.dir\\Debug\\\\" /Fd"cmTC_ace0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55dd0.dir\\Debug\\\\" /Fd"cmTC_55dd0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\cmTC_ace0c.exe" /INCREMENTAL /ILK:"cmTC_ace0c.dir\\Debug\\cmTC_ace0c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027/Debug/cmTC_ace0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027/Debug/cmTC_ace0c.lib" /MACHINE:X64  /machine:x64 cmTC_ace0c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_ace0c.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\cmTC_ace0c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qkqhlo\\Debug\\cmTC_55dd0.exe" /INCREMENTAL /ILK:"cmTC_55dd0.dir\\Debug\\cmTC_55dd0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-qkqhlo/Debug/cmTC_55dd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-qkqhlo/Debug/cmTC_55dd0.lib" /MACHINE:X64  /machine:x64 cmTC_55dd0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_55dd0.vcxproj -> C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qkqhlo\\Debug\\cmTC_55dd0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\cmTC_ace0c.lastbuildstate".
-        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\cmTC_ace0c.vcxproj" (default targets).
+          Deleting file "cmTC_55dd0.dir\\Debug\\cmTC_55dd0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_55dd0.dir\\Debug\\cmTC_55dd0.tlog\\cmTC_55dd0.lastbuildstate".
+        Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qkqhlo\\cmTC_55dd0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.29
         
       exitCode: 0
   -
@@ -179,41 +179,41 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4"
-      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4"
+      source: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-j8sqet"
+      binary: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-j8sqet"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4
+        Change Dir: C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-j8sqet
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_403f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 5/17/2024 11:16:32 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7e785.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/18/2024 3:26:56 AM.
         
-        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\cmTC_403f9.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8sqet\\cmTC_7e785.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_403f9.dir\\Debug\\".
+          Creating directory "cmTC_7e785.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\".
-          Creating directory "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\".
+          Creating directory "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8sqet\\Debug\\".
+          Creating directory "cmTC_7e785.dir\\Debug\\cmTC_7e785.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7e785.dir\\Debug\\cmTC_7e785.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7e785.dir\\Debug\\cmTC_7e785.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_403f9.dir\\Debug\\\\" /Fd"cmTC_403f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e785.dir\\Debug\\\\" /Fd"cmTC_7e785.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_403f9.dir\\Debug\\\\" /Fd"cmTC_403f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e785.dir\\Debug\\\\" /Fd"cmTC_7e785.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\cmTC_403f9.exe" /INCREMENTAL /ILK:"cmTC_403f9.dir\\Debug\\cmTC_403f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4/Debug/cmTC_403f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4/Debug/cmTC_403f9.lib" /MACHINE:X64  /machine:x64 cmTC_403f9.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_403f9.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\cmTC_403f9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8sqet\\Debug\\cmTC_7e785.exe" /INCREMENTAL /ILK:"cmTC_7e785.dir\\Debug\\cmTC_7e785.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-j8sqet/Debug/cmTC_7e785.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-j8sqet/Debug/cmTC_7e785.lib" /MACHINE:X64  /machine:x64 cmTC_7e785.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7e785.vcxproj -> C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8sqet\\Debug\\cmTC_7e785.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\cmTC_403f9.lastbuildstate".
-        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\cmTC_403f9.vcxproj" (default targets).
+          Deleting file "cmTC_7e785.dir\\Debug\\cmTC_7e785.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7e785.dir\\Debug\\cmTC_7e785.tlog\\cmTC_7e785.lastbuildstate".
+        Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8sqet\\cmTC_7e785.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -233,50 +233,50 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc"
-      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc"
+      source: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-wcq3te"
+      binary: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-wcq3te"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/dev/C++/Shooter-Game/external/GLFW/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc
+        Change Dir: C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-wcq3te
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_018ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 5/17/2024 11:16:32 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_551bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/18/2024 3:26:56 AM.
         
-        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\cmTC_551bb.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_018ab.dir\\Debug\\".
+          Creating directory "cmTC_551bb.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\Debug\\".
-          Creating directory "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\".
+          Creating directory "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\Debug\\".
+          Creating directory "cmTC_551bb.dir\\Debug\\cmTC_551bb.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\unsuccessfulbuild".
+          Creating "cmTC_551bb.dir\\Debug\\cmTC_551bb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_551bb.dir\\Debug\\cmTC_551bb.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_018ab.dir\\Debug\\\\" /Fd"cmTC_018ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_551bb.dir\\Debug\\\\" /Fd"cmTC_551bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_018ab.dir\\Debug\\\\" /Fd"cmTC_018ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_551bb.dir\\Debug\\\\" /Fd"cmTC_551bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\src.c"
           src.c
-        C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj]
-        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" (default targets) -- FAILED.
+        C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\cmTC_551bb.vcxproj]
+        Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\cmTC_551bb.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" (default target) (1) ->
+        "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\cmTC_551bb.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj]
+          C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcq3te\\cmTC_551bb.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.25
+        Time Elapsed 00:00:00.21
         
       exitCode: 1
   -
@@ -289,52 +289,52 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb"
-      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb"
+      source: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-q482f7"
+      binary: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-q482f7"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/dev/C++/Shooter-Game/external/GLFW/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb
+        Change Dir: C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-q482f7
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61443.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 5/17/2024 11:16:33 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_73528.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/18/2024 3:26:57 AM.
         
-        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\cmTC_73528.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_61443.dir\\Debug\\".
+          Creating directory "cmTC_73528.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\Debug\\".
-          Creating directory "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\".
+          Creating directory "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\Debug\\".
+          Creating directory "cmTC_73528.dir\\Debug\\cmTC_73528.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\unsuccessfulbuild".
+          Creating "cmTC_73528.dir\\Debug\\cmTC_73528.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_73528.dir\\Debug\\cmTC_73528.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_61443.dir\\Debug\\\\" /Fd"cmTC_61443.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_73528.dir\\Debug\\\\" /Fd"cmTC_73528.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_61443.dir\\Debug\\\\" /Fd"cmTC_61443.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_73528.dir\\Debug\\\\" /Fd"cmTC_73528.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\Debug\\cmTC_61443.exe" /INCREMENTAL /ILK:"cmTC_61443.dir\\Debug\\cmTC_61443.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb/Debug/cmTC_61443.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb/Debug/cmTC_61443.lib" /MACHINE:X64  /machine:x64 cmTC_61443.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj]
-        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\Debug\\cmTC_73528.exe" /INCREMENTAL /ILK:"cmTC_73528.dir\\Debug\\cmTC_73528.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-q482f7/Debug/cmTC_73528.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-q482f7/Debug/cmTC_73528.lib" /MACHINE:X64  /machine:x64 cmTC_73528.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\cmTC_73528.vcxproj]
+        Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\cmTC_73528.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" (default target) (1) ->
+        "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\cmTC_73528.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q482f7\\cmTC_73528.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.25
+        Time Elapsed 00:00:00.24
         
       exitCode: 1
   -
@@ -347,52 +347,52 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt"
-      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt"
+      source: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-fa2qfy"
+      binary: "C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-fa2qfy"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/dev/C++/Shooter-Game/external/GLFW/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt
+        Change Dir: C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-fa2qfy
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0d8fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 5/17/2024 11:16:33 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e7c9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/18/2024 3:26:57 AM.
         
-        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\cmTC_e7c9b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0d8fa.dir\\Debug\\".
+          Creating directory "cmTC_e7c9b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\Debug\\".
-          Creating directory "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\".
+          Creating directory "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\Debug\\".
+          Creating directory "cmTC_e7c9b.dir\\Debug\\cmTC_e7c9b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e7c9b.dir\\Debug\\cmTC_e7c9b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e7c9b.dir\\Debug\\cmTC_e7c9b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_0d8fa.dir\\Debug\\\\" /Fd"cmTC_0d8fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_e7c9b.dir\\Debug\\\\" /Fd"cmTC_e7c9b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_0d8fa.dir\\Debug\\\\" /Fd"cmTC_0d8fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_e7c9b.dir\\Debug\\\\" /Fd"cmTC_e7c9b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\Debug\\cmTC_0d8fa.exe" /INCREMENTAL /ILK:"cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt/Debug/cmTC_0d8fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt/Debug/cmTC_0d8fa.lib" /MACHINE:X64  /machine:x64 cmTC_0d8fa.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj]
-        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\Debug\\cmTC_e7c9b.exe" /INCREMENTAL /ILK:"cmTC_e7c9b.dir\\Debug\\cmTC_e7c9b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-fa2qfy/Debug/cmTC_e7c9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/Shooter-Game/build/CMakeFiles/CMakeScratch/TryCompile-fa2qfy/Debug/cmTC_e7c9b.lib" /MACHINE:X64  /machine:x64 cmTC_e7c9b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\cmTC_e7c9b.vcxproj]
+        Done Building Project "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\cmTC_e7c9b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" (default target) (1) ->
+        "C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\cmTC_e7c9b.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\Shooter-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fa2qfy\\cmTC_e7c9b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.24
+        Time Elapsed 00:00:00.23
         
       exitCode: 1
 ...

@@ -11,5 +11,5 @@ C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
-C:/dev/C++/GLFW Template/external/GLFW/CMake/glfw3Config.cmake.in
-C:/dev/C++/GLFW Template/external/GLFW/CMakeLists.txt
+C:/dev/C++/Shooter-Game/external/GLFW/CMake/glfw3Config.cmake.in
+C:/dev/C++/Shooter-Game/external/GLFW/CMakeLists.txt

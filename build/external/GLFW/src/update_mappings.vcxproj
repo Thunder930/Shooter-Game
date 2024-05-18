@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E95FA349-9B09-36BE-9041-9254F00B22A9}</ProjectGuid>
+    <ProjectGuid>{3247DD4B-54E8-3A33-8F8C-3E8EE99B1B4F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\dev\C++\GLFW Template\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\C++\Shooter-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,14 +105,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\build\CMakeFiles\b3ab1ff9e777282c32eb847081932511\update_mappings.rule">
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\build\CMakeFiles\cd7cfcc3cadde2d828c4dde85806ea53\update_mappings.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\dev\C++\GLFW Template\external\GLFW\src"
+cd C:\dev\C++\Shooter-Game\external\GLFW\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/dev/C++/GLFW Template/external/GLFW/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/dev/C++/Shooter-Game/external/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,16 +121,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\dev\C++\GLFW Template\external\GLFW\src"
+cd C:\dev\C++\Shooter-Game\external\GLFW\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/dev/C++/GLFW Template/external/GLFW/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/dev/C++/Shooter-Game/external/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,16 +139,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\dev\C++\GLFW Template\external\GLFW\src"
+cd C:\dev\C++\Shooter-Game\external\GLFW\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/dev/C++/GLFW Template/external/GLFW/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/dev/C++/Shooter-Game/external/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,16 +157,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\dev\C++\GLFW Template\external\GLFW\src"
+cd C:\dev\C++\Shooter-Game\external\GLFW\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/dev/C++/GLFW Template/external/GLFW/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/dev/C++/Shooter-Game/external/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -175,17 +175,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\external\GLFW\src\CMakeLists.txt">
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\external\GLFW\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,12 +193,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,12 +206,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,12 +219,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/GLFW Template/external/GLFW/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/C++/Shooter-Game/external/GLFW/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/dev/C++/GLFW Template" "-BC:/dev/C++/GLFW Template/build" --check-stamp-file "C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/C++/Shooter-Game -BC:/dev/C++/Shooter-Game/build --check-stamp-file C:/dev/C++/Shooter-Game/build/external/GLFW/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,22 +232,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\external\GLFW\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\dev\C++\GLFW Template\external\GLFW\src\mappings.h.in">
+    <None Include="C:\dev\C++\Shooter-Game\external\GLFW\src\mappings.h.in">
     </None>
-    <None Include="C:\dev\C++\GLFW Template\external\GLFW\CMake\GenerateMappings.cmake">
+    <None Include="C:\dev\C++\Shooter-Game\external\GLFW\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings">
+    <None Include="C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\dev\C++\GLFW Template\build\ZERO_CHECK.vcxproj">
-      <Project>{52A726F0-E9DE-3BA0-8AAE-98191BFBF45D}</Project>
+    <ProjectReference Include="C:\dev\C++\Shooter-Game\build\ZERO_CHECK.vcxproj">
+      <Project>{950CFBAF-D037-35DB-BF24-294C496936B5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

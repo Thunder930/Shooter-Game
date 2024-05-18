@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/C++/GLFW Template/external/GLFW/src
+# Install script for directory: C:/dev/C++/Shooter-Game/external/GLFW/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GLFW_Template")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Shooter-Game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

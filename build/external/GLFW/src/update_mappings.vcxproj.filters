@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\build\CMakeFiles\b3ab1ff9e777282c32eb847081932511\update_mappings.rule">
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\build\CMakeFiles\cd7cfcc3cadde2d828c4dde85806ea53\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\dev\C++\GLFW Template\external\GLFW\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\dev\C++\Shooter-Game\external\GLFW\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\dev\C++\GLFW Template\external\GLFW\src\mappings.h.in">
+    <None Include="C:\dev\C++\Shooter-Game\external\GLFW\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\dev\C++\GLFW Template\external\GLFW\CMake\GenerateMappings.cmake" />
-    <None Include="C:\dev\C++\GLFW Template\build\external\GLFW\src\CMakeFiles\update_mappings" />
+    <None Include="C:\dev\C++\Shooter-Game\external\GLFW\CMake\GenerateMappings.cmake" />
+    <None Include="C:\dev\C++\Shooter-Game\build\external\GLFW\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{432754E1-3B72-3F16-B4D8-7B6EE2BF43BB}</UniqueIdentifier>
+      <UniqueIdentifier>{BE6662C8-FA92-35F0-8677-396E101E1193}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B14C4923-FC7C-31BD-A7A5-6F0D717F1BE1}</UniqueIdentifier>
+      <UniqueIdentifier>{1C847EE8-7EA0-3643-A8A1-13F36697EA05}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
