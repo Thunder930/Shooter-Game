@@ -1,0 +1,16 @@
+C:/dev/C++/GLFW Template/build/CMakeFiles/GLFW_Template.dir
+C:/dev/C++/GLFW Template/build/CMakeFiles/INSTALL.dir
+C:/dev/C++/GLFW Template/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/C++/GLFW Template/build/CMakeFiles/ZERO_CHECK.dir
+C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/INSTALL.dir
+C:/dev/C++/GLFW Template/build/external/GLFW/CMakeFiles/ALL_BUILD.dir
+C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/glfw.dir
+C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/update_mappings.dir
+C:/dev/C++/GLFW Template/build/external/GLFW/src/CMakeFiles/INSTALL.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/glew.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/glew_s.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/glewinfo.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/visualinfo.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/uninstall.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/INSTALL.dir
+C:/dev/C++/GLFW Template/build/external/GLEW/build/cmake/CMakeFiles/ALL_BUILD.dir

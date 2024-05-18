@@ -1,0 +1,398 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 5/17/2024 11:16:30 PM.
+      
+      Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.51
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/dev/C++/GLFW Template/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 5/17/2024 11:16:31 PM.
+      
+      Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.33
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/dev/C++/GLFW Template/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027"
+      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ace0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/17/2024 11:16:31 PM.
+        
+        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\cmTC_ace0c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ace0c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\".
+          Creating directory "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ace0c.dir\\Debug\\\\" /Fd"cmTC_ace0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ace0c.dir\\Debug\\\\" /Fd"cmTC_ace0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\cmTC_ace0c.exe" /INCREMENTAL /ILK:"cmTC_ace0c.dir\\Debug\\cmTC_ace0c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027/Debug/cmTC_ace0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-k5o027/Debug/cmTC_ace0c.lib" /MACHINE:X64  /machine:x64 cmTC_ace0c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ace0c.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\Debug\\cmTC_ace0c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ace0c.dir\\Debug\\cmTC_ace0c.tlog\\cmTC_ace0c.lastbuildstate".
+        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5o027\\cmTC_ace0c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4"
+      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_403f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/17/2024 11:16:32 PM.
+        
+        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\cmTC_403f9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_403f9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\".
+          Creating directory "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_403f9.dir\\Debug\\\\" /Fd"cmTC_403f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_403f9.dir\\Debug\\\\" /Fd"cmTC_403f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\cmTC_403f9.exe" /INCREMENTAL /ILK:"cmTC_403f9.dir\\Debug\\cmTC_403f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4/Debug/cmTC_403f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-h1bro4/Debug/cmTC_403f9.lib" /MACHINE:X64  /machine:x64 cmTC_403f9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_403f9.vcxproj -> C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\Debug\\cmTC_403f9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_403f9.dir\\Debug\\cmTC_403f9.tlog\\cmTC_403f9.lastbuildstate".
+        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1bro4\\cmTC_403f9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "external/GLFW/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc"
+      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-r959tc
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_018ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/17/2024 11:16:32 PM.
+        
+        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_018ab.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\Debug\\".
+          Creating directory "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_018ab.dir\\Debug\\cmTC_018ab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_018ab.dir\\Debug\\\\" /Fd"cmTC_018ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_018ab.dir\\Debug\\\\" /Fd"cmTC_018ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c"
+          src.c
+        C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj]
+        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r959tc\\cmTC_018ab.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "external/GLFW/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb"
+      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61443.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/17/2024 11:16:33 PM.
+        
+        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_61443.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\Debug\\".
+          Creating directory "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_61443.dir\\Debug\\cmTC_61443.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_61443.dir\\Debug\\\\" /Fd"cmTC_61443.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_61443.dir\\Debug\\\\" /Fd"cmTC_61443.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\Debug\\cmTC_61443.exe" /INCREMENTAL /ILK:"cmTC_61443.dir\\Debug\\cmTC_61443.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb/Debug/cmTC_61443.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-fhrcnb/Debug/cmTC_61443.lib" /MACHINE:X64  /machine:x64 cmTC_61443.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj]
+        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fhrcnb\\cmTC_61443.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "external/GLFW/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt"
+      binary: "C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/dev/C++/GLFW Template/external/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0d8fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 5/17/2024 11:16:33 PM.
+        
+        Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0d8fa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\Debug\\".
+          Creating directory "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_0d8fa.dir\\Debug\\\\" /Fd"cmTC_0d8fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c17 /Fo"cmTC_0d8fa.dir\\Debug\\\\" /Fd"cmTC_0d8fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\Debug\\cmTC_0d8fa.exe" /INCREMENTAL /ILK:"cmTC_0d8fa.dir\\Debug\\cmTC_0d8fa.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt/Debug/cmTC_0d8fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/C++/GLFW Template/build/CMakeFiles/CMakeScratch/TryCompile-jpb2gt/Debug/cmTC_0d8fa.lib" /MACHINE:X64  /machine:x64 cmTC_0d8fa.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj]
+        Done Building Project "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\dev\\C++\\GLFW Template\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpb2gt\\cmTC_0d8fa.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+...

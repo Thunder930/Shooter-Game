@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/dev/C++/GLFW Template/external/GLEW/build/cmake/CMakeLists.txt
+C:/dev/C++/GLFW Template/external/GLEW/build/cmake/cmake_uninstall.cmake.in
+C:/dev/C++/GLFW Template/external/GLEW/glew.pc.in
