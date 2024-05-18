@@ -41,7 +41,7 @@ void InitGraphics(GLFWwindow*& window) {
         exit(-1);
     }
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Template", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "Shooter Game", NULL, NULL);
     if (!window)
     {
         fprintf(stderr, "Error: failed to create window");
