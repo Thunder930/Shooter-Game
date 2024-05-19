@@ -1,4 +1,5 @@
 #include "main.h"
+#include "ship.h"
 
 int main(int argc, char** argv)
 {
@@ -64,27 +65,37 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    // Load all game objects
+    ObjectList = (void**)malloc(sizeof(void**));
+    ObjectList[0] = new Ship(-0.7, 0);
+
 }
 
 void Render()
 {
     // Put all rendering objects here
+    Ship *ship = (Ship*)ObjectList[0];
+    ship->Render();
 }
 
 void Update(GLFWwindow*& window, double deltaTime) {
     // Update the posotions/states of everything. Use deltaTime to ensure that nothing is tied to frame rate.
-    ProcessInput(window);
+    ProcessInput(window, deltaTime);
 }
 
 void UnLoad() {
     // Free anything that was malloced
+    free(ObjectList[0]);
+    free(ObjectList);
     glfwTerminate();
 }
 
-void ProcessInput(GLFWwindow *window) {
+void ProcessInput(GLFWwindow *window, double deltaTime) {
+    Ship* ship = (Ship*)ObjectList[0];
     // Example of getting a key state
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-
+        ship->Move(true, deltaTime);
+    }
+    if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
+        ship->Move(false, deltaTime);
     }
 }

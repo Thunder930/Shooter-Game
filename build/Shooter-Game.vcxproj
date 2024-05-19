@@ -318,7 +318,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\dev\C++\Shooter-Game\src\main.cpp" />
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\ship.cpp" />
     <ClInclude Include="C:\dev\C++\Shooter-Game\include\main.h" />
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\ship.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\dev\C++\Shooter-Game\build\ZERO_CHECK.vcxproj">

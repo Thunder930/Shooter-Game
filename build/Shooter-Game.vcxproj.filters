@@ -4,9 +4,15 @@
     <ClCompile Include="C:\dev\C++\Shooter-Game\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\dev\C++\Shooter-Game\include\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\ship.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

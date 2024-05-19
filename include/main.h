@@ -9,4 +9,6 @@ void Load();
 void Render();
 void Update(GLFWwindow*& window, double deltaTime);
 void UnLoad();
-void ProcessInput(GLFWwindow* window);
+void ProcessInput(GLFWwindow* window, double deltaTime);
+
+void** ObjectList;
