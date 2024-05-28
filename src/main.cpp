@@ -1,5 +1,4 @@
 #include "main.h"
-#include "ship.h"
 
 int main(int argc, char** argv)
 {
@@ -65,16 +64,15 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    ObjectList = (void**)malloc(sizeof(void**));
-    ObjectList[0] = new Ship(-0.7, 0);
-
+    ObjectList.push_back(new Ship(-0.7, 0));
 }
 
 void Render()
 {
     // Put all rendering objects here
-    Ship *ship = (Ship*)ObjectList[0];
-    ship->Render();
+    for(const auto& object : ObjectList) {
+        object->Render();
+    }
 }
 
 void Update(GLFWwindow*& window, double deltaTime) {
@@ -84,8 +82,7 @@ void Update(GLFWwindow*& window, double deltaTime) {
 
 void UnLoad() {
     // Free anything that was malloced
-    free(ObjectList[0]);
-    free(ObjectList);
+    ObjectList.clear();
     glfwTerminate();
 }
 

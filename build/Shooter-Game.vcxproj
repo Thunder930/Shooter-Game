@@ -317,8 +317,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\Renderable.cpp" />
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\bullet.cpp" />
     <ClCompile Include="C:\dev\C++\Shooter-Game\src\main.cpp" />
     <ClCompile Include="C:\dev\C++\Shooter-Game\src\ship.cpp" />
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\Renderable.h" />
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\bullet.h" />
     <ClInclude Include="C:\dev\C++\Shooter-Game\include\main.h" />
     <ClInclude Include="C:\dev\C++\Shooter-Game\include\ship.h" />
   </ItemGroup>

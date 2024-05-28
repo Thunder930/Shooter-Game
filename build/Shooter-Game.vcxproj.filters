@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\C++\Shooter-Game\src\bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\dev\C++\Shooter-Game\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -9,6 +15,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\C++\Shooter-Game\include\bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\dev\C++\Shooter-Game\include\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>

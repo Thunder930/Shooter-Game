@@ -1,8 +1,8 @@
 #pragma once
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
+#include "ship.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <vector>
 
 void InitGraphics(GLFWwindow*& window);
 void Load();
@@ -11,4 +11,4 @@ void Update(GLFWwindow*& window, double deltaTime);
 void UnLoad();
 void ProcessInput(GLFWwindow* window, double deltaTime);
 
-void** ObjectList;
+std::vector<Renderable*> ObjectList;

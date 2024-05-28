@@ -1,6 +1,4 @@
-#include <ship.h>
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
+#include "ship.h"
 
 Ship::Ship(float xPos, float yPos) {
 	this->xPos = xPos;
@@ -11,7 +9,7 @@ void Ship::Move(bool moveUp, double deltaTime) {
 	moveUp ? yPos += deltaTime : yPos -= deltaTime;
 }
 
-void Ship::Render() {
+void Ship::Render() const {
 	glBegin(GL_TRIANGLES);
 
 	glVertex2f(xPos - 0.1f, yPos + 0.2f);
@@ -19,4 +17,8 @@ void Ship::Render() {
 	glVertex2f(xPos + 0.1f, yPos);
 
 	glEnd();
+}
+
+void Ship::Fire() const {
+
 }
