@@ -11,4 +11,4 @@ void Update(GLFWwindow*& window, double deltaTime);
 void UnLoad();
 void ProcessInput(GLFWwindow* window, double deltaTime);
 
-std::vector<Renderable*> ObjectList;
+std::vector<Renderable*> renderables;

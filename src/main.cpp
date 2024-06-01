@@ -64,14 +64,14 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    ObjectList.push_back(new Ship(-0.7, 0));
+    renderables.push_back(new Ship(-0.7, 0));
 }
 
 void Render()
 {
     // Put all rendering objects here
-    for(const auto& object : ObjectList) {
-        object->Render();
+    for(const auto& renderable : renderables) {
+        renderable->Render();
     }
 }
 
@@ -82,12 +82,12 @@ void Update(GLFWwindow*& window, double deltaTime) {
 
 void UnLoad() {
     // Free anything that was malloced
-    ObjectList.clear();
+    renderables.clear();
     glfwTerminate();
 }
 
 void ProcessInput(GLFWwindow *window, double deltaTime) {
-    Ship* ship = (Ship*)ObjectList[0];
+    Ship* ship = (Ship*)renderables[0];
     // Example of getting a key state
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
         ship->Move(true, deltaTime);
