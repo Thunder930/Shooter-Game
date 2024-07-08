@@ -6,8 +6,13 @@ Bullet::Bullet(float xPos, float yPos, float velocity) {
 	this->velocity = velocity;
 }
 
-void Bullet::Update(double deltaTime) {
+void Bullet::Update(double deltaTime, std::vector<Renderable*>& renderables) {
 	xPos += velocity * deltaTime;
+	if (xPos > 0.5) {
+		auto thisBullet = std::find(renderables.begin(), renderables.end(), this);
+		renderables.erase(thisBullet);
+		renderables.shrink_to_fit();
+	}
 }
 
 void Bullet::Render() const {

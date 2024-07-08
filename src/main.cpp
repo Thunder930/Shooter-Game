@@ -16,11 +16,11 @@ int main(int argc, char** argv)
     while (!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
-
-        Render();
-
         double deltaTime = glfwGetTime() - time;
         time = glfwGetTime();
+
+        Render(deltaTime);
+
         Update(window, deltaTime);
 
         /* Swap front and back buffers */
@@ -67,11 +67,12 @@ void Load() {
     renderables.push_back(new Ship(-0.7, 0));
 }
 
-void Render()
+void Render(double deltaTime)
 {
     // Put all rendering objects here
-    for(const auto& renderable : renderables) {
-        renderable->Render();
+    for (int i = 0; i < renderables.size(); i++) {
+        renderables[i]->Render();
+        renderables[i]->Update(deltaTime, renderables);
     }
 }
 
@@ -94,5 +95,8 @@ void ProcessInput(GLFWwindow *window, double deltaTime) {
     }
     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
         ship->Move(false, deltaTime);
+    }
+    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        ship->Fire(renderables);
     }
 }

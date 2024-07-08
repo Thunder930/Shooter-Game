@@ -2,11 +2,12 @@
 #include "Renderable.h"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <vector>
 class Bullet : public Renderable
 {
 public:
 	Bullet(float xPos, float yPos, float velocity);
-	void Update(double deltaTime);
+	void Update(double deltaTime, std::vector<Renderable*>& renderables) override;
 	void Render() const override;
 private:
 	float velocity;

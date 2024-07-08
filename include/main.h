@@ -6,7 +6,7 @@
 
 void InitGraphics(GLFWwindow*& window);
 void Load();
-void Render();
+void Render(double deltaTime);
 void Update(GLFWwindow*& window, double deltaTime);
 void UnLoad();
 void ProcessInput(GLFWwindow* window, double deltaTime);
