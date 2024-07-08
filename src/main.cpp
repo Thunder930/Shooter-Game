@@ -1,4 +1,5 @@
 #include "main.h"
+#include "defines.h"
 
 int main(int argc, char** argv)
 {
@@ -64,7 +65,7 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    renderables.push_back(new Ship(-0.7, 0));
+    renderables.push_back(new Ship(SHIP_START_X, SHIP_START_Y));
 }
 
 void Render(double deltaTime)

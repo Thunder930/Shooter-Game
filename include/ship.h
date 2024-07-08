@@ -1,5 +1,6 @@
 #pragma once
 #include "bullet.h"
+#include "defines.h"
 #include <vector>
 class Ship : public Renderable
 {

@@ -17,16 +17,16 @@ void Ship::Update(double deltaTime, std::vector<Renderable*>& renderables) {
 void Ship::Render() const {
 	glBegin(GL_TRIANGLES);
 
-	glVertex2f(xPos - 0.1f, yPos + 0.2f);
-	glVertex2f(xPos - 0.1f, yPos - 0.2f);
-	glVertex2f(xPos + 0.1f, yPos);
+	glVertex2f(xPos - SHIP_HALF_HEIGHT, yPos + SHIP_HALF_WIDTH);
+	glVertex2f(xPos - SHIP_HALF_HEIGHT, yPos - SHIP_HALF_WIDTH);
+	glVertex2f(xPos + SHIP_HALF_HEIGHT, yPos);
 
 	glEnd();
 }
 
 void Ship::Fire(std::vector<Renderable*> &renderables) {
-	if (timeSinceLastBullet > 0.5) {
-		renderables.push_back(new Bullet(xPos, yPos, 5));
+	if (timeSinceLastBullet > MIN_TIME_BETWEEN_SHOTS) {
+		renderables.push_back(new Bullet(xPos, yPos, BULLET_VELOCITY));
 		timeSinceLastBullet = 0;
 	}
 }
