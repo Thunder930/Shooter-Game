@@ -7,12 +7,17 @@ Ship::Ship(float xPos, float yPos) {
 }
 
 void Ship::Move(bool moveUp, double deltaTime) {
-	moveUp ? yPos += deltaTime : yPos -= deltaTime;
+	if (moveUp) {
+		yPos + SHIP_HALF_WIDTH + deltaTime > 1.0 ? yPos = 1.0 - SHIP_HALF_WIDTH : yPos += deltaTime;
+	}
+	else {
+		yPos - SHIP_HALF_WIDTH - deltaTime < -1.0 ? yPos = -1.0 + SHIP_HALF_WIDTH : yPos -= deltaTime;
+	}
 }
 
 void Ship::Update(double deltaTime, std::vector<Renderable*>& renderables) {
 	if (bulletCooldown > 0.0) {
-		bulletCooldown < deltaTime ? bulletCooldown = 0.0 : bulletCooldown -= deltaTime;
+		bulletCooldown > deltaTime ? bulletCooldown -= deltaTime : bulletCooldown = 0.0;
 	}
 }
 
