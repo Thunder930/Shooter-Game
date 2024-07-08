@@ -13,5 +13,5 @@ public:
 private:
 	float xPos;
 	float yPos;
-	double timeSinceLastBullet;
+	double bulletCooldown;
 };
