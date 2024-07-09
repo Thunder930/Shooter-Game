@@ -1,5 +1,6 @@
 #pragma once
-#include "ship.h"
+#include "player.h"
+#include "enemy.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>

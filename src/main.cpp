@@ -65,7 +65,8 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    renderables.push_back(new Ship(SHIP_START_X, SHIP_START_Y));
+    renderables.push_back(new Player(SHIP_START_X, SHIP_START_Y)); 
+    renderables.push_back(new Enemy(0.7f, 0.0f));
 }
 
 void Render(double deltaTime)
@@ -89,15 +90,15 @@ void UnLoad() {
 }
 
 void ProcessInput(GLFWwindow *window, double deltaTime) {
-    Ship* ship = (Ship*)renderables[0];
+    Player* player = (Player*)renderables[0];
     // Example of getting a key state
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-        ship->Move(true, deltaTime);
+        player->Move(true, deltaTime);
     }
     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
-        ship->Move(false, deltaTime);
+        player->Move(false, deltaTime);
     }
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
-        ship->Fire(renderables);
+        player->Fire(renderables);
     }
 }

@@ -2,15 +2,12 @@
 #include "bullet.h"
 #include "defines.h"
 #include <vector>
-class Ship : public Renderable
+class Ship
 {
 public:
-	Ship(float xPos, float yPos);
-	void Move(bool moveUp, double deltaTime);
-	void Render() const override;
-	void Update(double deltaTime, std::vector<Renderable*>& renderables) override;
-	void Fire(std::vector<Renderable*> &renderables);
-private:
+	virtual void Move(bool moveUp, double deltaTime) = 0;
+	virtual void Fire(std::vector<Renderable*> &renderables) = 0;
+protected:
 	float xPos;
 	float yPos;
 	double bulletCooldown;
