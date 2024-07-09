@@ -11,5 +11,6 @@ void Render(double deltaTime);
 void Update(GLFWwindow*& window, double deltaTime);
 void UnLoad();
 void ProcessInput(GLFWwindow* window, double deltaTime);
+void resizeCallback(GLFWwindow* window, int width, int height);
 
 std::vector<Renderable*> renderables;

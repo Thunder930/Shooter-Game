@@ -61,7 +61,7 @@ void InitGraphics(GLFWwindow*& window) {
         exit(-1);
     }
     fprintf(stdout, "Status: Using GLEW %s\n", glewGetString(GLEW_VERSION));
-
+    glfwSetFramebufferSizeCallback(window, resizeCallback);
 }
 
 void Load() {
@@ -101,4 +101,8 @@ void ProcessInput(GLFWwindow *window, double deltaTime) {
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
         player->Fire(renderables);
     }
+}
+
+void resizeCallback(GLFWwindow* window, int width, int height) {
+    glViewport(0, 0, width, height);
 }
