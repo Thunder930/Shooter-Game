@@ -8,8 +8,8 @@
  * on screen.
  */
 
-#define SHIP_HALF_HEIGHT 0.1f
-#define SHIP_HALF_WIDTH 0.2f
+#define BATTLESHIP_HALF_HEIGHT 0.1f
+#define BATTLESHIP_HALF_WIDTH 0.2f
 #define BULLET_HALF_HEIGHT 0.05f
 #define BULLET_HALF_WIDTH 0.05f
 

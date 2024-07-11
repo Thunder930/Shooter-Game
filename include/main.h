@@ -1,9 +1,11 @@
 #pragma once
-#include "player.h"
-#include "enemy.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include "Renderable.h"
 #include <vector>
+#include "battleship.h"
 
 void InitGraphics(GLFWwindow*& window);
 void Load();
