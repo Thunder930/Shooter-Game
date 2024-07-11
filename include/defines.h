@@ -1,6 +1,7 @@
 #pragma once
 
 #define MIN_TIME_BETWEEN_SHOTS 0.5
+#define DEFAULT_MIN_TIME_BETWEEN_SHOTS 0.5
 
 /*
  * Sizes of objects. Keep in mind that this game is horizontal,

@@ -1,7 +1,10 @@
 #pragma once 
 
 struct Dimensions {
-	float xPos, yPos, width, height;
+	float xPos = 0.0f;
+	float yPos = 0.0f;
+	float width = 0.0f;
+	float height = 0.0f;
 };
 
 class Collidable

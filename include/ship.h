@@ -10,6 +10,6 @@ public:
 	virtual void Fire(std::vector<Renderable*> &renderables) = 0;
 	void Collide() const override;
 protected:
-	double bulletCooldown;
-	bool isEnemy;
+	double bulletCooldown = DEFAULT_MIN_TIME_BETWEEN_SHOTS;
+	bool isEnemy = false;
 };
