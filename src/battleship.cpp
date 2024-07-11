@@ -43,7 +43,12 @@ void Battleship::Render() const {
 
 void Battleship::Fire(std::vector<Renderable*>& renderables) {
 	if (bulletCooldown <= 0.0) {
-		renderables.push_back(new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY));
+		if (isEnemy) {
+			renderables.push_back(new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY));
+		}
+		else {
+			renderables.push_back(new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY));
+		}
 		bulletCooldown = MIN_TIME_BETWEEN_SHOTS;
 	}
 }
