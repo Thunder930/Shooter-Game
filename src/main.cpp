@@ -20,8 +20,6 @@ int main(int argc, char** argv)
         double deltaTime = glfwGetTime() - time;
         time = glfwGetTime();
 
-        Render(deltaTime);
-
         Update(window, deltaTime);
 
         /* Swap front and back buffers */
@@ -65,8 +63,12 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    renderables.push_back(new Battleship(SHIP_START_X, SHIP_START_Y, false)); 
-    renderables.push_back(new Battleship(0.7f, 0.0f, true));
+    Battleship* player = new Battleship(SHIP_START_X, SHIP_START_Y, false);
+    renderables.push_back(player);
+    collidables.push_back(player);
+    Battleship* enemy = new Battleship(0.7f, 0.0f, true);
+    renderables.push_back(enemy);
+    collidables.push_back(enemy);
 }
 
 void Render(double deltaTime)
@@ -78,8 +80,21 @@ void Render(double deltaTime)
     }
 }
 
+void Collide() {
+    for (int i = 0; i < collidables.size(); i++) {
+        for (int j = 0; j < collidables.size() && j != i; j++) {
+            if (collidables[i]->IsColliding(collidables[j]->GetDimensions())) {
+                collidables[i]->Collide();
+            }
+        }
+        collidables[i]->Update(collidables);
+    }
+}
+
 void Update(GLFWwindow*& window, double deltaTime) {
     // Update the posotions/states of everything. Use deltaTime to ensure that nothing is tied to frame rate.
+    Render(deltaTime);
+    Collide();
     ProcessInput(window, deltaTime);
 }
 
@@ -99,7 +114,7 @@ void ProcessInput(GLFWwindow *window, double deltaTime) {
         player->Move(false, deltaTime);
     }
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
-        player->Fire(renderables);
+        player->Fire(renderables, collidables);
     }
 }
 

@@ -10,5 +10,6 @@ public:
 	void Move(bool moveUp, double deltaTime) override;
 	void Render() const override;
 	void Update(double deltaTime, std::vector<Renderable*>& renderables) override;
-	void Fire(std::vector<Renderable*>& renderables) override;
+	void Update(std::vector<Collidable*>& collidables) override;
+	void Fire(std::vector<Renderable*>& renderables, std::vector<Collidable*>& collidables) override;
 };

@@ -1,4 +1,5 @@
 #pragma once 
+#include <vector>
 
 struct Dimensions {
 	float xPos = 0.0f;
@@ -13,6 +14,7 @@ public:
 	Dimensions GetDimensions() const;
 	bool IsColliding(Dimensions hitbox) const;
 	virtual void Collide() const = 0;
+	virtual void Update(std::vector<Collidable*>& collidables) = 0;
 
 protected:
 	Dimensions dimensions;

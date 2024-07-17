@@ -19,6 +19,14 @@ void Bullet::Update(double deltaTime, std::vector<Renderable*>& renderables) {
 	}
 }
 
+void Bullet::Update(std::vector<Collidable*>& collidables) {
+	if (dimensions.xPos > 1.0f) {
+		auto thisBullet = std::find(collidables.begin(), collidables.end(), this);
+		collidables.erase(thisBullet);
+		collidables.shrink_to_fit();
+	}
+}
+
 void Bullet::Render() const {
 	glBegin(GL_TRIANGLES);
 
@@ -34,5 +42,5 @@ void Bullet::Render() const {
 }
 
 void Bullet::Collide() const {
-
+	printf("Bullet Hit");
 }

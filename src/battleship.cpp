@@ -25,6 +25,10 @@ void Battleship::Update(double deltaTime, std::vector<Renderable*>& renderables)
 	}
 }
 
+void Battleship::Update(std::vector<Collidable*>& collidables) {
+
+}
+
 void Battleship::Render() const {
 	glBegin(GL_TRIANGLES);
 	if (isEnemy) {
@@ -41,13 +45,17 @@ void Battleship::Render() const {
 	glEnd();
 }
 
-void Battleship::Fire(std::vector<Renderable*>& renderables) {
+void Battleship::Fire(std::vector<Renderable*>& renderables, std::vector<Collidable*>& collidables) {
 	if (bulletCooldown <= 0.0) {
 		if (isEnemy) {
-			renderables.push_back(new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY));
+			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY);
+			renderables.push_back(bullet);
+			collidables.push_back(bullet);
 		}
 		else {
-			renderables.push_back(new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY));
+			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY);
+			renderables.push_back(bullet);
+			collidables.push_back(bullet);
 		}
 		bulletCooldown = MIN_TIME_BETWEEN_SHOTS;
 	}
