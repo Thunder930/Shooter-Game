@@ -87,7 +87,6 @@ void Collide() {
                 collidables[i]->Collide();
             }
         }
-        collidables[i]->CollisionUpdate();
     }
 }
 

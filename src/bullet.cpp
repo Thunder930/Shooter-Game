@@ -12,21 +12,24 @@ Bullet::Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>&
 	this->collidables = &collidables;
 }
 
+Bullet::~Bullet() {
+	auto thisRenderable = std::find(renderables->begin(), renderables->end(), this);
+	renderables->erase(thisRenderable);
+	renderables->shrink_to_fit();
+	auto thisCollidable = std::find(collidables->begin(), collidables->end(), this);
+	collidables->erase(thisCollidable);
+	collidables->shrink_to_fit();
+}
+
 void Bullet::RenderUpdate(double deltaTime) {
 	dimensions.xPos += velocity * deltaTime;
 	if (dimensions.xPos > 1.0f) {
-		auto thisBullet = std::find(renderables->begin(), renderables->end(), this);
-		renderables->erase(thisBullet);
-		renderables->shrink_to_fit();
+		delete(this);
 	}
 }
 
 void Bullet::CollisionUpdate() {
-	if (dimensions.xPos > 1.0f) {
-		auto thisBullet = std::find(collidables->begin(), collidables->end(), this);
-		collidables->erase(thisBullet);
-		collidables->shrink_to_fit();
-	}
+
 }
 
 void Bullet::Render() const {
@@ -44,5 +47,5 @@ void Bullet::Render() const {
 }
 
 void Bullet::Collide() const {
-	printf("Bullet Hit");
+	delete(this);
 }
