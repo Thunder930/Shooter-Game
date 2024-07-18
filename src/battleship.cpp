@@ -50,12 +50,12 @@ void Battleship::Render() const {
 void Battleship::Fire() {
 	if (bulletCooldown <= 0.0) {
 		if (isEnemy) {
-			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY, *renderables, *collidables);
+			Bullet* bullet = new Bullet(dimensions.xPos - dimensions.height - 0.15f, dimensions.yPos, -BULLET_VELOCITY, *renderables, *collidables);
 			renderables->push_back(bullet);
 			collidables->push_back(bullet);
 		}
 		else {
-			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY, *renderables, *collidables);
+			Bullet* bullet = new Bullet(dimensions.xPos + dimensions.height + 0.15f, dimensions.yPos, BULLET_VELOCITY, *renderables, *collidables);
 			renderables->push_back(bullet);
 			collidables->push_back(bullet);
 		}
