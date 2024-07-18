@@ -1,7 +1,7 @@
 #include "bullet.h"
 #include "defines.h"
 
-Bullet::Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>& renderables) {
+Bullet::Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>& renderables, std::vector<Collidable*>& collidables) {
 	this->dimensions.xPos = xPos;
 	this->dimensions.yPos = yPos;
 	this->dimensions.width = BULLET_HALF_WIDTH;
@@ -9,9 +9,10 @@ Bullet::Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>&
 	this->CollisionIsOn = true;
 	this->velocity = velocity;
 	this->renderables = &renderables;
+	this->collidables = &collidables;
 }
 
-void Bullet::Update(double deltaTime) {
+void Bullet::RenderUpdate(double deltaTime) {
 	dimensions.xPos += velocity * deltaTime;
 	if (dimensions.xPos > 1.0f) {
 		auto thisBullet = std::find(renderables->begin(), renderables->end(), this);
@@ -20,11 +21,11 @@ void Bullet::Update(double deltaTime) {
 	}
 }
 
-void Bullet::Update(std::vector<Collidable*>& collidables) {
+void Bullet::CollisionUpdate() {
 	if (dimensions.xPos > 1.0f) {
-		auto thisBullet = std::find(collidables.begin(), collidables.end(), this);
-		collidables.erase(thisBullet);
-		collidables.shrink_to_fit();
+		auto thisBullet = std::find(collidables->begin(), collidables->end(), this);
+		collidables->erase(thisBullet);
+		collidables->shrink_to_fit();
 	}
 }
 

@@ -1,6 +1,6 @@
 #include "battleship.h"
 
-Battleship::Battleship(float xPos, float yPos, bool isEnemy, std::vector<Renderable*>& renderables) {
+Battleship::Battleship(float xPos, float yPos, bool isEnemy, std::vector<Renderable*>& renderables, std::vector<Collidable*>& collidables) {
 	this->dimensions.xPos = xPos;
 	this->dimensions.yPos = yPos;
 	this->dimensions.width = BATTLESHIP_HALF_WIDTH;
@@ -9,6 +9,7 @@ Battleship::Battleship(float xPos, float yPos, bool isEnemy, std::vector<Rendera
 	this->CollisionIsOn = true;
 	this->isEnemy = isEnemy;
 	this->renderables = &renderables;
+	this->collidables = &collidables;
 }
 
 void Battleship::Move(bool moveUp, double deltaTime) {
@@ -20,13 +21,13 @@ void Battleship::Move(bool moveUp, double deltaTime) {
 	}
 }
 
-void Battleship::Update(double deltaTime) {
+void Battleship::RenderUpdate(double deltaTime) {
 	if (bulletCooldown > 0.0) {
 		bulletCooldown > deltaTime ? bulletCooldown -= deltaTime : bulletCooldown = 0.0;
 	}
 }
 
-void Battleship::Update(std::vector<Collidable*>& collidables) {
+void Battleship::CollisionUpdate() {
 
 }
 
@@ -46,17 +47,17 @@ void Battleship::Render() const {
 	glEnd();
 }
 
-void Battleship::Fire(std::vector<Collidable*>& collidables) {
+void Battleship::Fire() {
 	if (bulletCooldown <= 0.0) {
 		if (isEnemy) {
-			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY, *renderables);
+			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, -BULLET_VELOCITY, *renderables, *collidables);
 			renderables->push_back(bullet);
-			collidables.push_back(bullet);
+			collidables->push_back(bullet);
 		}
 		else {
-			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY, *renderables);
+			Bullet* bullet = new Bullet(dimensions.xPos, dimensions.yPos, BULLET_VELOCITY, *renderables, *collidables);
 			renderables->push_back(bullet);
-			collidables.push_back(bullet);
+			collidables->push_back(bullet);
 		}
 		bulletCooldown = MIN_TIME_BETWEEN_SHOTS;
 	}

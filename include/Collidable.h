@@ -14,9 +14,10 @@ public:
 	Dimensions GetDimensions() const;
 	bool IsColliding(Dimensions hitbox) const;
 	virtual void Collide() const = 0;
-	virtual void Update(std::vector<Collidable*>& collidables) = 0;
+	virtual void CollisionUpdate() = 0;
 
 protected:
 	Dimensions dimensions;
 	bool CollisionIsOn = true;
+	std::vector<Collidable*>* collidables = nullptr;
 };
