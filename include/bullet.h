@@ -7,8 +7,8 @@
 class Bullet : public Renderable, public Collidable
 {
 public:
-	Bullet(float xPos, float yPos, float velocity);
-	void Update(double deltaTime, std::vector<Renderable*>& renderables) override;
+	Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>& renderables);
+	void Update(double deltaTime) override;
 	void Update(std::vector<Collidable*>& collidables) override;
 	void Render() const override;
 	void Collide() const override;

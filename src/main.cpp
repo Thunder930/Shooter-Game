@@ -63,10 +63,10 @@ void InitGraphics(GLFWwindow*& window) {
 }
 
 void Load() {
-    Battleship* player = new Battleship(SHIP_START_X, SHIP_START_Y, false);
+    Battleship* player = new Battleship(SHIP_START_X, SHIP_START_Y, false, renderables);
     renderables.push_back(player);
     collidables.push_back(player);
-    Battleship* enemy = new Battleship(0.7f, 0.0f, true);
+    Battleship* enemy = new Battleship(0.7f, 0.0f, true, renderables);
     renderables.push_back(enemy);
     collidables.push_back(enemy);
 }
@@ -76,7 +76,7 @@ void Render(double deltaTime)
     // Put all rendering objects here
     for (int i = 0; i < renderables.size(); i++) {
         renderables[i]->Render();
-        renderables[i]->Update(deltaTime, renderables);
+        renderables[i]->Update(deltaTime);
     }
 }
 
@@ -114,7 +114,7 @@ void ProcessInput(GLFWwindow *window, double deltaTime) {
         player->Move(false, deltaTime);
     }
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
-        player->Fire(renderables, collidables);
+        player->Fire(collidables);
     }
 }
 

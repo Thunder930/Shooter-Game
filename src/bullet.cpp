@@ -1,21 +1,22 @@
 #include "bullet.h"
 #include "defines.h"
 
-Bullet::Bullet(float xPos, float yPos, float velocity) {
+Bullet::Bullet(float xPos, float yPos, float velocity, std::vector<Renderable*>& renderables) {
 	this->dimensions.xPos = xPos;
 	this->dimensions.yPos = yPos;
 	this->dimensions.width = BULLET_HALF_WIDTH;
 	this->dimensions.height = BULLET_HALF_HEIGHT;
 	this->CollisionIsOn = true;
 	this->velocity = velocity;
+	this->renderables = &renderables;
 }
 
-void Bullet::Update(double deltaTime, std::vector<Renderable*>& renderables) {
+void Bullet::Update(double deltaTime) {
 	dimensions.xPos += velocity * deltaTime;
 	if (dimensions.xPos > 1.0f) {
-		auto thisBullet = std::find(renderables.begin(), renderables.end(), this);
-		renderables.erase(thisBullet);
-		renderables.shrink_to_fit();
+		auto thisBullet = std::find(renderables->begin(), renderables->end(), this);
+		renderables->erase(thisBullet);
+		renderables->shrink_to_fit();
 	}
 }
 

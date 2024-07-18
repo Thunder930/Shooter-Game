@@ -4,6 +4,8 @@ class Renderable
 {
 public:
 	virtual void Render() const = 0;
-	virtual void Update(double deltaTime, std::vector<Renderable*>& renderables) = 0;
+	virtual void Update(double deltaTime) = 0;
+protected:
+	std::vector<Renderable*> *renderables;
 };
 

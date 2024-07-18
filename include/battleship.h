@@ -6,10 +6,10 @@
 class Battleship : public Ship
 {
 public:
-	Battleship(float xPos, float yPos, bool isEnemy);
+	Battleship(float xPos, float yPos, bool isEnemy, std::vector<Renderable*>& renderables);
 	void Move(bool moveUp, double deltaTime) override;
 	void Render() const override;
-	void Update(double deltaTime, std::vector<Renderable*>& renderables) override;
+	void Update(double deltaTime) override;
 	void Update(std::vector<Collidable*>& collidables) override;
-	void Fire(std::vector<Renderable*>& renderables, std::vector<Collidable*>& collidables) override;
+	void Fire(std::vector<Collidable*>& collidables) override;
 };
