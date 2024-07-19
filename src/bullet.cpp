@@ -46,6 +46,6 @@ void Bullet::Render() const {
 	glEnd();
 }
 
-void Bullet::Collide() const {
+void Bullet::Collide() {
 	delete(this);
 }

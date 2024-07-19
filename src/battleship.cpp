@@ -10,6 +10,7 @@ Battleship::Battleship(float xPos, float yPos, bool isEnemy, std::vector<Rendera
 	this->isEnemy = isEnemy;
 	this->renderables = &renderables;
 	this->collidables = &collidables;
+	this->health = BATTLESHIP_BASE_HEALTH;
 }
 
 void Battleship::Move(bool moveUp, double deltaTime) {

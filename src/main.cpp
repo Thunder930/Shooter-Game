@@ -85,6 +85,7 @@ void Collide() {
         for (int j = 0; j < collidables.size() && j != i; j++) {
             if (collidables[i]->IsColliding(collidables[j]->GetDimensions())) {
                 collidables[i]->Collide();
+                collidables[j]->Collide();
             }
         }
     }

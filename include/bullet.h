@@ -12,7 +12,7 @@ public:
 	void RenderUpdate(double deltaTime) override;
 	void CollisionUpdate() override;
 	void Render() const override;
-	void Collide() const override;
+	void Collide() override;
 private:
 	float velocity;
 };

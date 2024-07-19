@@ -18,3 +18,5 @@
 #define BULLET_VELOCITY 5.0f
 #define SHIP_START_X -0.7f
 #define SHIP_START_Y 0.0f
+
+#define BATTLESHIP_BASE_HEALTH 5
